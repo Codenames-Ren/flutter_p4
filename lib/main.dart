@@ -12,14 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Aplikasi Mahasiswa",
-      home: MyHome(),
+      home: ProfilePages(),
       theme: ThemeData.dark(useMaterial3: true),
     );
   }
 }
 
-class MyHome extends StatelessWidget {
-  const MyHome({super.key});
+class ProfilePages extends StatelessWidget {
+  const ProfilePages({super.key});
 
   @override
   Widget build(BuildContext context) {
