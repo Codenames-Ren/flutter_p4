@@ -24,7 +24,14 @@ class ProfilePages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Center(child: Text("Dashboard Mahasiswa"))),
+      appBar: AppBar(
+        title: const Center(
+          child: Text(
+            "Dashboard Mahasiswa",
+            style: TextStyle(color: Color.fromRGBO(210, 2, 225, 0.502)),
+          ),
+        ),
+      ),
       body: const Center(child: Text("Bayu Sukma")),
     );
   }
